@@ -10,7 +10,7 @@ export default function Loading() {
     <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-black">
       <div className="text-center">
         <div className="w-32 h-32 mx-auto mb-4">
-          <Lottie animationData={loadingAnimation} loop={true} />
+          <Lottie path={loadingAnimation} loop={true} />
         </div>
         <p className="text-lg text-gray-600 dark:text-gray-400">
           Loading...

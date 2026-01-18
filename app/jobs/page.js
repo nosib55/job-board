@@ -4,7 +4,6 @@ import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import Cookies from "js-cookie";
-import Link from "next/link";
 import Swal from "sweetalert2";
 import PostJobModal from "@/components/PostJobModal";
 
@@ -133,12 +132,7 @@ function JobsContent() {
                 Type: {job.jobType}
               </p>
 
-              <Link
-                href={`/jobs/${job.id}`}
-                className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 inline-block"
-              >
-                View Details
-              </Link>
+              {/* Job details page removed as per user request */}
             </div>
           ))}
         </div>
