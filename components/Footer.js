@@ -45,14 +45,7 @@ export default function Footer() {
                   My Applications
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/login"
-                  className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white"
-                >
-                  Login
-                </Link>
-              </li>
+            
             </ul>
           </div>
 
