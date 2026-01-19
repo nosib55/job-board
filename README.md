@@ -1,4 +1,10 @@
 This is a [Next.js](https://nextjs.org) project for a Job Application Tracker (JobBoard).
+## demo
+live link : https://job-board-nine-xi.vercel.app/
+email : admin@jobboard.com
+ pass : 123456
+
+
 
 ## Features
 
@@ -40,23 +46,5 @@ Run the development server:
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser.
-
-## API Endpoints
-
-The app expects an Express API running on `NEXT_PUBLIC_API_URL` with:
-
-- `GET /jobs` - Fetch all jobs
-- `GET /jobs/:id` - Fetch single job
-- `POST /jobs` - Create new job (body: { company, jobLink, location, jobType, status, appliedDate })
-
-## Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-
-## Deployment
 
 Deploy to Vercel or any platform supporting Next.js.
